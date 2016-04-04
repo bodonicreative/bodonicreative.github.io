@@ -1,55 +1,25 @@
+---
+title: Bodoni Creative Agency
+---
+
 <html>
 
-<head>
-  <title>Bodoni Creative Agency</title>
-  <!--link rel="stylesheet" href="bootstrap.css"-->
-  <link rel='stylesheet' type='text/css' href='/main.css'>
-  <link rel='shortcut icon' type='image/png' href='/content/icon.png'>
-  <link rel='stylesheet' type='text/css' href='/font-awesome-4.4.0/css/font-awesome.css'>
-  <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Arapey:400,400italic'>
-  <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Lato:200,400,300,300italic,700italic,400italic,700&subset=latin,latin-ext'>
-  <link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Suranna'>
-</head>
+  {% include head.html %}
 
-<body>
-  <header>
-    <a href='/'>
-      <div class='header-item'>
-        <img src='/content/icon.png' alt='Bodoni Creative'>
-      </div>
-      <div class='header-item'>
-        <h1>odoni Creative</h1>
-      </div>
-    </a>
-    <div class='header-item'>
-      <ul class='nav'>
-        <li><a href='/about'>About</a></li>
-        <li><a href='/people'>People</a></li>
-        <li><a href='/work'>Work</a></li>
-        <li><a href='/contact'>Contact</a></li>
-      </ul>
-    </div>
-  </header>
-  
-  <div id='page'>
-    <div id='text'>
-      <h2>Heading inside the main part of the page.</h2>
-      <p>And some fuckin text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempus dui purus, et ornare turpis ornare nec. Aliquam eget tincidunt nisl, sed dignissim dui. Vestibulum rutrum eu felis ac ultrices. Mauris bibendum neque quis molestie dapibus. Sed volutpat, turpis quis malesuada pretium, ante nisi faucibus lorem, et molestie lorem nibh pellentesque lectus. Integer aliquam lacinia augue non tristique. Sed scelerisque nulla at ex congue ornare. Mauris in tortor vitae orci tempus mollis ac vel nunc. Vivamus arcu velit, varius non ligula at, varius pulvinar lectus. Nullam sollicitudin lacus ut finibus maximus. In rhoncus tincidunt urna, non tincidunt erat hendrerit eu.</p>
-      <p>Nulla sit amet mollis nibh, at interdum libero. Nam vitae urna venenatis, dapibus metus luctus, ullamcorper nisl. Aenean molestie vehicula arcu, sed dapibus tortor tincidunt in. Aenean sit amet ultricies nibh, gravida convallis leo. In consectetur, lectus ac faucibus facilisis, dui lectus feugiat erat, nec congue velit risus ut lorem. Nullam vel euismod dolor, ac sodales nibh. Suspendisse sollicitudin scelerisque dolor, a sollicitudin mi faucibus id. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed luctus est tortor. Aenean sed iaculis enim.</p>
-    </div>
-  </div>
-  
-  <footer>
-    <p>
-      <ul class='social'>
-        <li><a href='http://facebook.com/'><i class='fa fa-facebook'></i></a></li>
-        <li><a href='http://twitter.com/'><i class='fa fa-twitter'></i></a></li>
-        <li><a href='http://instagram.com/'><i class='fa fa-instagram'></i></a></li>
-      </ul>
-    </p>
-    <p>&copy; 2016 Bodoni Creative</p>
-  </footer>
+  <body>
 
-</body>
+    {% include header.html %}
+    
+    <div id='page'>
+      <div id='text'>
+        <h2>Heading inside the main part of the page.</h2>
+        <p>And some fuckin text. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tempus dui purus, et ornare turpis ornare nec. Aliquam eget tincidunt nisl, sed dignissim dui. Vestibulum rutrum eu felis ac ultrices. Mauris bibendum neque quis molestie dapibus. Sed volutpat, turpis quis malesuada pretium, ante nisi faucibus lorem, et molestie lorem nibh pellentesque lectus. Integer aliquam lacinia augue non tristique. Sed scelerisque nulla at ex congue ornare. Mauris in tortor vitae orci tempus mollis ac vel nunc. Vivamus arcu velit, varius non ligula at, varius pulvinar lectus. Nullam sollicitudin lacus ut finibus maximus. In rhoncus tincidunt urna, non tincidunt erat hendrerit eu.</p>
+        <p>Nulla sit amet mollis nibh, at interdum libero. Nam vitae urna venenatis, dapibus metus luctus, ullamcorper nisl. Aenean molestie vehicula arcu, sed dapibus tortor tincidunt in. Aenean sit amet ultricies nibh, gravida convallis leo. In consectetur, lectus ac faucibus facilisis, dui lectus feugiat erat, nec congue velit risus ut lorem. Nullam vel euismod dolor, ac sodales nibh. Suspendisse sollicitudin scelerisque dolor, a sollicitudin mi faucibus id. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed luctus est tortor. Aenean sed iaculis enim.</p>
+      </div>
+    </div>
+    
+    {% include footer.html %}
+
+  </body>
 
 </html>
