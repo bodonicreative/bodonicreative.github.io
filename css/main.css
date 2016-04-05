@@ -31,7 +31,7 @@ header h1 {
   height: 40px;
 }
 
-.nav a:hover {
+.nav a:hover, .nav a.active {
   border-bottom: 2px solid #ffffff;
 }
 
